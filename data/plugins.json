@@ -163,6 +163,43 @@
       "date": "05-07-2026",
       "featured": true,
       "tags": ["stream"]
+    },
+
+	  	   {
+      "id": "localfiles",
+      "name": "LocalFiles",
+      "slug": "localfiles",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "music",
+      "type": ["stream"],
+      "description": "Локальные аудиофайлы в Murglar",
+      "description_full": "Локальные аудиофайлы в Murglar, с возможностью стримить по сети",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/localfiles/icon.png",
+      "screenshots": [
+        "assets/plugins/localfiles/screenshots/1.jpg",
+        "assets/plugins/localfiles/screenshots/2.jpg"
+      ],
+   
+      "jar": {
+        "url": "assets/plugins/localfiles/murglar-plugin-localfiles-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "05-07-2026",
+      "featured": true,
+      "tags": ["stream"]
     }	  
 	
 	
