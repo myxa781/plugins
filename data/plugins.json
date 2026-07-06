@@ -126,7 +126,45 @@
       "date": "05-07-2026",
       "featured": true,
       "tags": ["stream"]
-    }
+    },
+
+	   {
+      "id": "jango",
+      "name": "Jango",
+      "slug": "jango",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "radio",
+      "type": ["stream"],
+      "description": "Вводишь исполнителя, Jango строит станцию: играет он сам, похожие артисты, иногда малоизвестные имена того же жанра. Идея как у старого Pandora.",
+      "description_full": "Jango — бесплатный сервис интернет-радио, запущенный в 2007 году. Это не стриминг вроде Spotify, где выбираешь любой трек — это персонализированное радио. Вводишь исполнителя, Jango строит станцию: играет он сам, похожие артисты, иногда малоизвестные имена того же жанра. Идея как у старого Pandora. Сервис полностью бесплатный для слушателя — без аудиорекламы, без лимитов по времени, регистрация необязательна. Каталог — около 30 миллионов треков. Что умеет плагин — Рекомендованные станции и каталог жанров — Поиск станции по любому исполнителю — Избранное — сохраняется между сессиями — Воспроизведение MP3 и M4A потоков — Настройка разнообразия станции (насколько далеко уходить от исполнителя)",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/jango/icon.png",
+      "screenshots": [
+        "assets/plugins/jango/screenshots/1.jpg",
+        "assets/plugins/jango/screenshots/2.jpg",
+        "assets/plugins/jango/screenshots/3.jpg"
+      ],
+   
+      "jar": {
+        "url": "assets/plugins/jango/murglar-plugin-jango-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "05-07-2026",
+      "featured": true,
+      "tags": ["stream"]
+    }	  
 	
 	
 	
