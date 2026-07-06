@@ -92,7 +92,7 @@
       "slug": "torrserve",
       "version": "1.0.0",
       "sdk": "9.0",
-      "category": "stream",
+      "category": "music",
       "type": ["stream","download"],
       "description": "проигрывание торрентов (аудиопоток) *(необходим свой сервер)",
       "description_full": "Проигрывание торрентов (аудиопоток) *(необходим свой сервер)",
