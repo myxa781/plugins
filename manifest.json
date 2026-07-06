@@ -1,0 +1,41 @@
+{
+  "name": "Murglar Plugins",
+  "short_name": "Murglar",
+  "description": "Каталог плагинов для Android музыкального плеера Murglar",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0F0F17",
+  "theme_color": "#7C4DFF",
+  "lang": "ru",
+  "orientation": "portrait-primary",
+  "categories": ["music", "utilities"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Каталог плагинов",
+      "short_name": "Каталог",
+      "url": "./index.html",
+      "description": "Открыть каталог плагинов Murglar"
+    },
+    {
+      "name": "О проекте",
+      "short_name": "О нас",
+      "url": "./about.html",
+      "description": "Информация о Murglar Plugins"
+    }
+  ]
+}

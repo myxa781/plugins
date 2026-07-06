@@ -1,0 +1,94 @@
+{
+  "version": "1.0.0",
+  "updated": "05-07-2026",
+  "plugins": [
+    {
+      "id": "hearthis",
+      "name": "HearThis.at",
+      "slug": "hearthis",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "music",
+      "type": ["stream", "download"],
+      "description": "Плагин для стриминга треков с HearThis.at — платформы для независимых музыкантов. Поддерживает поиск, профили артистов, плейлисты и загрузку.",
+      "description_full": "HearThis.at — это платформа для независимых музыкантов и диджеев. Плагин обеспечивает полный доступ к публичному каталогу: поиск треков и артистов, просмотр профилей, воспроизведение плейлистов. Поддерживается загрузка треков в оригинальном качестве там, где это разрешено. Плагин использует официальное публичное API без авторизации.",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/murglar-plugin-hearthis/tree/main/hearthis-github",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/hearthis/icon.png",
+      "screenshots": [
+        "assets/plugins/hearthis/screenshots/1.jpg",
+        "assets/plugins/hearthis/screenshots/2.jpg",
+        "assets/plugins/hearthis/screenshots/3.jpg"
+      ],
+      "apk": {
+        "url": "assets/plugins/hearthis/murglar-plugin-hearthis-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/hearthis/murglar-plugin-hearthis-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "05-07-2026",
+      "featured": true,
+      "tags": ["indie", "electronic", "dj"]
+    },
+	
+	 {
+      "id": "radio",
+      "name": "Radio",
+      "slug": "radio",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "radio",
+      "type": ["stream"],
+      "description": "Cвои онлайн плейлисты, + радио провайдеры с разделами: 101.ru, radio browser, radio garden,tunein,lossless.ru",
+      "description_full": "Объедините лучшие онлайн-радиосервисы в одном плагине. Слушайте тысячи радиостанций со всего мира, создавайте собственные онлайн-плейлисты, сохраняйте любимые станции в избранное и быстро переключайтесь между любимыми жанрами, странами и категориями. Плагин предоставляет единый интерфейс для популярных радиопровайдеров: 101.ru, Radio Browser, Radio Garden, TuneIn и Lossless.ru. Используйте удобный поиск по названию, жанру, стране и языку, открывайте тематические подборки и получайте доступ к качественным потокам, включая Lossless, где это поддерживается провайдером. Возможности Собственные онлайн-плейлисты. Избранные радиостанции и история прослушивания. Тысячи станций со всего мира. Поиск по названию, жанру, стране и языку. Поддержка нескольких радиопровайдеров в одном интерфейсе. Категории, подборки и рекомендации. Потоки высокого качества, включая Lossless, где доступны. Быстрая навигация и единая библиотека радиостанций.",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/radio/icon.png",
+      "screenshots": [
+        "assets/plugins/radio/screenshots/1.jpg",
+        "assets/plugins/radio/screenshots/2.jpg",
+        "assets/plugins/radio/screenshots/3.jpg"
+      ],
+      "apk": {
+        "url": "assets/plugins/hearthis/murglar-plugin-radio-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/hearthis/murglar-plugin-radio-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "05-07-2026",
+      "featured": true,
+      "tags": ["radio"]
+    }
+	
+	
+	
+
+	
+  ]
+}
