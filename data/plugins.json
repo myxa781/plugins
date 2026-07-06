@@ -84,6 +84,48 @@
       "date": "05-07-2026",
       "featured": true,
       "tags": ["radio"]
+    },
+
+	   {
+      "id": "torrserve",
+      "name": "TorrServe",
+      "slug": "torrserve",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "stream","download",
+      "type": ["stream","download"],
+      "description": "проигрывание торрентов (аудиопоток) *(необходим свой сервер)",
+      "description_full": "Проигрывание торрентов (аудиопоток) *(необходим свой сервер)",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/radio/icon.png",
+      "screenshots": [
+        "assets/plugins/torrserve/screenshots/1.jpg",
+        "assets/plugins/torrserve/screenshots/2.jpg",
+        "assets/plugins/torrserve/screenshots/3.jpg"
+      ],
+      "apk": {
+        "url": "assets/plugins/hearthis/murglar-plugin-torrserver-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/hearthis/murglar-plugin-torrserver-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "05-07-2026",
+      "featured": true,
+      "tags": ["stream"]
     }
 	
 	
