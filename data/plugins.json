@@ -94,24 +94,24 @@
       "sdk": "9.0",
       "category": "music",
       "type": ["stream","download"],
-      "description": "проигрывание торрентов (аудиопоток) *(необходим свой сервер)",
-      "description_full": "Проигрывание торрентов (аудиопоток) *(необходим свой сервер)",
+      "description": "проигрывание торрентов (аудиопоток) (необходим свой сервер)",
+      "description_full": "Проигрывание торрентов (аудиопоток) (необходим свой сервер)",
       "author": "Levi",
       "github": "https://github.com/myxa781/",
       "telegram": "https://t.me/murglardiscuss",
-      "icon": "assets/plugins/radio/icon.png",
+      "icon": "assets/plugins/torrserve/icon.png",
       "screenshots": [
         "assets/plugins/torrserve/screenshots/1.jpg",
         "assets/plugins/torrserve/screenshots/2.jpg",
         "assets/plugins/torrserve/screenshots/3.jpg"
       ],
       "apk": {
-        "url": "assets/plugins/hearthis/murglar-plugin-torrserver-9.1.apk",
+        "url": "assets/plugins/torrserve/murglar-plugin-torrserver-9.1.apk",
         "size": "",
         "sha256": ""
       },
       "jar": {
-        "url": "assets/plugins/hearthis/murglar-plugin-torrserver-9.1.jar",
+        "url": "assets/plugins/torrserve/murglar-plugin-torrserver-9.1.jar",
         "size": "",
         "sha256": ""
       },
