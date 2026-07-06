@@ -144,8 +144,7 @@
       "icon": "assets/plugins/jango/icon.png",
       "screenshots": [
         "assets/plugins/jango/screenshots/1.jpg",
-        "assets/plugins/jango/screenshots/2.jpg",
-        "assets/plugins/jango/screenshots/3.jpg"
+        "assets/plugins/jango/screenshots/2.jpg"
       ],
    
       "jar": {
