@@ -279,7 +279,47 @@
       "date": "07-07-2026",
       "featured": true,
       "tags": ["music"]
+    },
+
+	   {
+      "id": "podcasts",
+      "name": "Podcasts",
+      "slug": "podcasts",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "music",
+      "type": ["stream"],
+      "description": "Подкасты podcasts.apple.com",
+      "description_full": "Подкасты podcasts.apple.com",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/murglar-plugin-podcasts",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/podcasts/icon.png",
+  
+      "apk": {
+        "url": "assets/plugins/podcasts/murglar-plugin-podcasts-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/podcasts/murglar-plugin-podcasts-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "07-07-2026",
+      "featured": true,
+      "tags": ["music","podcast"]
     }
+
+
 
 
 
