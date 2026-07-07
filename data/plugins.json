@@ -196,7 +196,55 @@
       "date": "05-07-2026",
       "featured": true,
       "tags": ["stream"]
-    }	  
+    },
+
+
+	  {
+  "version": "1.0.0",
+  "updated": "05-07-2026",
+  "plugins": [
+    {
+      "id": "emby",
+      "name": "Emby",
+      "slug": "emby",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "music",
+      "type": ["stream", "download"],
+      "description": "Плагин для проигрывания треков с сервера Emby (необходим свой сервер)",
+      "description_full": "Плагин для проигрывания треков с сервера Emby (необходим свой сервер)",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/murglar-plugin-emby",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/emby/icon.png",
+      "screenshots": [
+        "assets/plugins/emby/screenshots/1.jpg",
+        "assets/plugins/emby/screenshots/2.jpg",
+        "assets/plugins/emby/screenshots/3.jpg"
+      ],
+      "apk": {
+        "url": "assets/plugins/emby/murglar-plugin-emby-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/emby/murglar-plugin-emby-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "06-07-2026",
+      "featured": true,
+      "tags": ["emby"]
+    },
+
 	
 	
 	
