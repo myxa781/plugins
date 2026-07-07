@@ -199,10 +199,7 @@
     },
 
 
-	  {
-  "version": "1.0.0",
-  "updated": "05-07-2026",
-  "plugins": [
+	
     {
       "id": "emby",
       "name": "Emby",
