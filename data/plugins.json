@@ -295,6 +295,11 @@
       "github": "https://github.com/myxa781/murglar-plugin-podcasts",
       "telegram": "https://t.me/murglardiscuss",
       "icon": "assets/plugins/podcasts/icon.png",
+	  "screenshots": [
+        "assets/plugins/podcasts/screenshots/1.jpg",
+        "assets/plugins/podcasts/screenshots/2.jpg",
+        "assets/plugins/podcasts/screenshots/3.jpg"
+      ],
   
       "apk": {
         "url": "assets/plugins/podcasts/murglar-plugin-podcasts-9.1.apk",
