@@ -240,9 +240,64 @@
       "date": "06-07-2026",
       "featured": true,
       "tags": ["music"]
+    },
+
+
+    {
+      "id": "cloudmusic",
+      "name": "CloudMusic",
+      "slug": "cloudmusic",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "music",
+      "type": ["stream"],
+      "description": "Cloud Music Plugin для Murglar. Воспроизведение музыки из Yandex Disk, Dropbox и Google Drive",
+      "description_full": "☁️ Cloud Music Plugin для Murglar Воспроизведение музыки из Yandex Disk, Dropbox и Google Drive  ━━━━━━━━━━━━━━━━━━━━  Для каждого провайдера нужно создать своё приложение в консоли разработчика (один раз, ~5 минут) и получить токен. Все три провайдера подключаются одновременно — одна форма при входе, пустые поля пропускаются.  ━━━━━━━━━━━━━━━━━━━━  🟡 YANDEX DISK Срок действия: бессрочный Формат ввода: ТОКЕН  Создание приложения (один раз): 1. Открой https://oauth.yandex.ru/client/new 2. Название — любое (например murglar-cloud) 3. Платформа: Веб-сервисы → Redirect URI: https://oauth.yandex.ru/verification_code 4. Доступы: раздел Яндекс.Диск REST API → отметь Доступ к информации о Диске и Чтение всего Диска 5. Нажми Создать приложение 6. Скопируй ClientID со страницы приложения — он понадобится один раз  Получение токена: 1. Открой в браузере (подставь свой ClientID): https://oauth.yandex.ru/authorize?response_type=token&client_id=ТВОЙ_CLIENT_ID 2. Войди в Яндекс → нажми Разрешить 3. В адресной строке появится URL: ...#access_token=AQAAAABf...&token_type=bearer... 4. Скопируй значение между access_token= и &  Ввод в Murglar: AQAAAABfxxxxxxxxxxxxxxxxxxxxx Просто токен, без дополнительных параметров.  ━━━━━━━━━━━━━━━━━━━━  🔵 DROPBOX Срок действия: бессрочный (плагин автоматически получает refresh token) Формат ввода: КОД|APP_KEY|APP_SECRET  Создание приложения (один раз): 1. Открой https://www.dropbox.com/developers/apps 2. Create app → Scoped access → Full Dropbox → имя любое → Create app 3. Вкладка Permissions → отметь files.metadata.read и files.content.read → Submit 4. Вкладка Settings → скопируй App key и App secret — запиши их, пригодятся  Получение кода: 1. Открой в браузере (подставь свой App key): https://www.dropbox.com/oauth2/authorize?client_id=ТВОЙ_APP_KEY&response_type=code&token_access_type=offline 2. Войди в Dropbox → нажми Continue → Allow 3. На странице появится Access Code — строка вида B2PDoU7LCikAAAAAAAAM5LFF6O... 4. Скопируй его  Ввод в Murglar (сразу после получения кода — он живёт ~5 минут!): СКОПИРОВАННЫЙ_КОД|APP_KEY|APP_SECRET Три значения через | без пробелов. Плагин обменяет код на бессрочный refresh token автоматически.  ⚠️ Код одноразовый — после ввода он больше не нужен. Если ошибка при вводе — просто повтори «Получение кода» (шаг 1-4) и введи свежий.  ━━━━━━━━━━━━━━━━━━━━  🟢 GOOGLE DRIVE Срок действия: бессрочный (плагин автоматически обновляет access token каждый час) Формат ввода: REFRESH_TOKEN|CLIENT_ID|CLIENT_SECRET  Создание проекта (один раз): 1. Открой https://console.cloud.google.com/ → создай проект (или выбери существующий) 2. Включи Drive API: APIs & Services → Library → найди Google Drive API → Enable  Настройка OAuth (один раз): 1. APIs & Services → OAuth consent screen (или Audience в новом интерфейсе) 2. User type: External → заполни обязательные поля (имя приложения, email) 3. В разделе Test users → + Add users → введи свой Gmail → сохрани  Создание OAuth Client (один раз): 1. APIs & Services → Credentials → + Create Credentials → OAuth client ID 2. Application type: Web application 3. Authorized redirect URIs → + Add URI → вставь: https://developers.google.com/oauthplayground 4. Create → скопируй Client ID и Client Secret — запиши их  Получение Refresh Token: 1. Открой https://developers.google.com/oauthplayground/ 2. Нажми ⚙️ (шестерёнка справа вверху) 3. Поставь галку ☑️ Use your own OAuth credentials 4. Вставь свои Client ID и Client Secret → закрой настройки 5. Step 1 (слева): найди Drive API v3 → отметь https://www.googleapis.com/auth/drive.readonly → Authorize APIs 6. Войди в Google → при предупреждении «приложение не проверено» нажми Дополнительные настройки → Перейти к [имя приложения] → Разрешить 7. Step 2: сразу нажми Exchange authorization code for tokens (код живёт ~1 минуту!) 8. Скопируй Refresh token (начинается с 1//)  Ввод в Murglar: REFRESH_TOKEN|CLIENT_ID|CLIENT_SECRET Пример: 1//04-abcdef|123456-xxx.apps.googleusercontent.com|GOCSPX-xxxSecret Три значения через | без пробелов.  ━━━━━━━━━━━━━━━━━━━━  📋 Памятка: [23.06.2026 13:58] Levi Traum: Формат ввода: — Yandex Disk: ТОКЕН — Dropbox: КОД|APP_KEY|APP_SECRET — Google Drive: REFRESH_TOKEN|CLIENT_ID|CLIENT_SECRET  Общее: — Все три провайдера подключаются одновременно (одна форма, пустые поля пропускаются) — Если один провайдер не прошёл — остальные всё равно сохранятся, ошибка покажется в уведомлении — Токены всех трёх провайдеров бессрочные — Удаление отдельных аккаунтов: настройки плагина ⚙️ — Добавление новых провайдеров: Logout → ввести все токены заново — App key / Client ID / Client Secret создаются один раз и не меняются",
+      "author": "Levi",
+      "github": "https://github.com/myxa781/murglar-plugin-cloud",
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/cloudmusic/icon.png",
+  
+      "apk": {
+        "url": "assets/plugins/cloudmusic/murglar-plugin-cloudmusic-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/cloudmusic/murglar-plugin-cloudmusic-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "07-07-2026",
+      "featured": true,
+      "tags": ["music"]
     }
 
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	  
 	
 	
 
