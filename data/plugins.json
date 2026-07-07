@@ -63,12 +63,12 @@
         "assets/plugins/radio/screenshots/3.jpg"
       ],
       "apk": {
-        "url": "assets/plugins/hearthis/murglar-plugin-radio-9.1.apk",
+        "url": "assets/plugins/radio/murglar-plugin-radio-9.1.apk",
         "size": "",
         "sha256": ""
       },
       "jar": {
-        "url": "assets/plugins/hearthis/murglar-plugin-radio-9.1.jar",
+        "url": "assets/plugins/radio/murglar-plugin-radio-9.1.jar",
         "size": "",
         "sha256": ""
       },
@@ -239,7 +239,7 @@
       },
       "date": "06-07-2026",
       "featured": true,
-      "tags": ["emby"]
+      "tags": ["music"]
     }
 
 	
