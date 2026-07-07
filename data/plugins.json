@@ -259,12 +259,12 @@
       "icon": "assets/plugins/cloudmusic/icon.png",
   
       "apk": {
-        "url": "assets/plugins/cloudmusic/murglar-plugin-cloudmusic-9.1.apk",
+        "url": "assets/plugins/cloudmusic/murglar-plugin-cloud-9.1.apk",
         "size": "",
         "sha256": ""
       },
       "jar": {
-        "url": "assets/plugins/cloudmusic/murglar-plugin-cloudmusic-9.1.jar",
+        "url": "assets/plugins/cloudmusic/murglar-plugin-cloud-9.1.jar",
         "size": "",
         "sha256": ""
       },
@@ -302,12 +302,12 @@
       ],
   
       "apk": {
-        "url": "assets/plugins/podcasts/murglar-plugin-podcasts-9.1.apk",
+        "url": "assets/plugins/podcasts/murglar-plugin-podcast-9.1.apk",
         "size": "",
         "sha256": ""
       },
       "jar": {
-        "url": "assets/plugins/podcasts/murglar-plugin-podcasts-9.1.jar",
+        "url": "assets/plugins/podcasts/murglar-plugin-podcast-9.1.jar",
         "size": "",
         "sha256": ""
       },
