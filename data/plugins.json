@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updated": "05-07-2026",
+  "updated": "07-05-2026",
   "plugins": [
     {
       "id": "hearthis",
@@ -39,7 +39,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "05-07-2026",
+      "date": "07-05-2026",
       "featured": true,
       "tags": ["indie", "electronic", "dj"]
     },
@@ -80,7 +80,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "05-07-2026",
+      "date": "07-05-2026",
       "featured": true,
       "tags": ["radio"]
     },
@@ -121,7 +121,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "05-07-2026",
+      "date": "07-05-2026",
       "featured": true,
       "tags": ["stream"]
     },
@@ -157,7 +157,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "05-07-2026",
+      "date": "07-05-2026",
       "featured": true,
       "tags": ["stream"]
     },
@@ -193,7 +193,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "05-07-2026",
+      "date": "07-05-2026",
       "featured": true,
       "tags": ["stream"]
     },
@@ -237,7 +237,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "06-07-2026",
+      "date": "07-06-2026",
       "featured": true,
       "tags": ["music"]
     },
@@ -360,7 +360,7 @@
         "android_min": "",
         "android_min_api":17
       },
-      "date": "08-07-2026",
+      "date": "07-08-2026",
       "featured": true,
       "tags": ["radio"]
     }
