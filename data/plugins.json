@@ -363,8 +363,51 @@
       "date": "07-08-2026",
       "featured": true,
       "tags": ["radio"]
-    }
+    },
 
+	  
+   {
+      "id": "audiobooks",
+      "name": "Книга в Ухе",
+      "slug": "audiobooks",
+      "version": "1.0.0",
+      "sdk": "9.0",
+      "category": "radio",
+      "type": ["stream"],
+      "description": "аудиокниги от одноименного провайдера",
+      "description_full": "аудиокниги от одноименного провайдера",
+      "author": "Levi",      
+      "telegram": "https://t.me/murglardiscuss",
+      "icon": "assets/plugins/audiobooks/icon.png",
+	  "screenshots": [
+        "assets/plugins/audiobooks/screenshots/1.jpg",
+        "assets/plugins/audiobooks/screenshots/2.jpg",
+        "assets/plugins/audiobooks/screenshots/3.jpg"
+        
+      ],
+  
+      "apk": {
+        "url": "assets/plugins/audiobooks/murglar-plugin-audiobooks-9.1.apk",
+        "size": "",
+        "sha256": ""
+      },
+      "jar": {
+        "url": "assets/plugins/audiobooks/murglar-plugin-audiobooks-9.1.jar",
+        "size": "",
+        "sha256": ""
+      },
+      "changelog": [
+       
+      ],
+      "compatibility": {
+        "murglar_min": "",
+        "android_min": "",
+        "android_min_api":17
+      },
+      "date": "07-14-2026",
+      "featured": true,
+      "tags": ["radio"]
+    }
 
 
 
